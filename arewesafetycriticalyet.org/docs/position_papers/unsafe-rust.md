@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+sidebar_label: Unsafe Rust
+slug: unsafe-rust
+---
+
 # Assessing Rust's `unsafe` Code in Safety-Related Software
 
 *Guidance for functional-safety assessors — draft v0.1, for publication by the Safety-Critical Rust Consortium.* *Applicable context: software developed in Rust and assessed under ISO 26262, IEC 61508, IEC 62304, or DO-178C. Informative guidance; not a normative standard.*

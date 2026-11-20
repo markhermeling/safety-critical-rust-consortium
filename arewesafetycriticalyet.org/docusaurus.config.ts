@@ -89,6 +89,15 @@ const config: Config = {
         sidebarPath: './docs/sidebarsLiaison.ts',
         // ... other options
       },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'position_papers',
+        path: 'docs/position_papers',
+        routeBasePath: 'position_papers',
+        sidebarPath: './docs/sidebarsPositionPapers.ts',
+      },
     ]
   ],
 
@@ -122,6 +131,13 @@ const config: Config = {
           sidebarId: 'liaisonSidebar',
           position: 'left',
           label: 'Liaison',
+        },
+        {
+          type: 'docSidebar',
+          docsPluginId: 'position_papers',
+          sidebarId: 'positionPapersSidebar',
+          position: 'left',
+          label: 'Position Papers',
         },
         {
           href: 'https://github.com/rustfoundation/safety-critical-rust-consortium',
